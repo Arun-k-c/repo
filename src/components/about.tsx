@@ -11,11 +11,11 @@ function About() {
             alt="About Image"
             className="rounded-[5.5rem] shadow-[5.5rem] mb-6"
           />
-          <p className="text-lg font-light text-gray-700 leading-relaxed">
+          <p className="text-lg text-gray-700 leading-relaxed">
             Hey, <br />
               Thank you for visiting. I am
-              <span className="font-semibold"> Rajani Baniya</span>from Nepal,
-              currently in the USA.I am a passionate learner with
+              <span className="font-semibold"> Rajani Baniya</span> from Nepal,
+              currently in the USA. I am a passionate learner with
               skills in photo video editing. I also enjoy cooking. <br />
               I am <span > 
               <ReactTyped strings={["Nature Lover.","Learner.","Beautiful." ] } typeSpeed={40}
@@ -27,6 +27,10 @@ function About() {
         </div>
 
         {/* Desktop */}
+        <div className="hidden md:block">
+        <p className=" flex justify-center ml-[4.5rem] text-blue-500 text-2xl ">About </p>
+        <hr   className=" w-2/4 border-gray-400 border-solid border-[1.5px] ml-[39.1rem]"/> 
+        </div>
         <div className="hidden md:grid grid-cols-2 gap-8 items-center">
           <img
             src={about}
@@ -34,7 +38,8 @@ function About() {
             className="max-w-[455px] max-h-[410px] rounded-[13.5rem] shadow-lg w-full h-auto"
           />
           <div>
-            <p className="text-xl font-light text-gray-700 leading-relaxed">
+          
+            <p className="text-xl  text-gray-700 leading-relaxed">
               Hey, <br />
               Thank you for visiting. I am
               <span className="font-semibold"> Rajani Baniya</span> from Nepal,
