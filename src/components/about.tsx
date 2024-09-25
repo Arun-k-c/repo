@@ -1,11 +1,16 @@
 import about from "./images/rajani.jpg";
 import { ReactTyped } from "react-typed";
 function About() {
-  return (
-    <div className="w-full bg-gray-100 py-12">
-      <div className="max-w-[1240px] mx-auto px-4 md:px-0">
+  return ( 
+    
+    <div id="about"className="w-full bg-gray-100 py-12 ">
+      
+      <div className="max-w-[1240px]  mx-auto px-4 md:px-0">
         {/* Mobile */}
+         
         <div className="md:hidden text-center">
+        <div className="text-xl mr-[17rem] mb-[2.25rem] text-blue-500 font-bold "><p className="underline underline-offset-[9px] decoration-4">About</p></div>
+        
           <img
             src={about}
             alt="About Image"
