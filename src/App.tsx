@@ -1,6 +1,7 @@
 import Body from "./components/body"
 import Heading from "./components/header"
 import About from "./components/about"
+import Photos from "./components/photos"
  const App = () => {
    return (
      <div>
@@ -8,6 +9,7 @@ import About from "./components/about"
     <Heading/>
     <Body/>
     <About/>
+    <Photos/>
     
       
      </div>
