@@ -38,7 +38,7 @@ function Photos() {
               src={image}
               onClick={() =>setSelectedImage(image)} 
               tabIndex={-1} 
-              className="md:hover:scale-75 hover:rounded-[10px] hover:shadow-custom hover:rotate-[-15deg] cursor-pointer"
+              className="hover:scale-75 hover:rounded-[10px] hover:shadow-custom cursor-pointer"
               alt={`Gallery Image ${index + 1}`}
             />
           ))}
