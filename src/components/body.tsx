@@ -13,29 +13,29 @@ function Body() {
             href="https://www.instagram.com/ra_ja_ni_28"
             className="hover:text-orange-600 cursor-pointer"
           >
-            Instagram{" "}
+            Instagram {""}
           </a>
           |
           <a
             href="https://www.facebook.com/profile.php?id=100085781894180"
             className="hover:text-orange-600 cursor-pointer"
           >
-            {" "}
-            Facebook
-          </a>{" "}
+          
+            {""} Facebook
+          </a>
           <br />
           <a href="#" className="hover:text-orange-600 cursor-pointer">
-            Whatsapp{" "}
-          </a>{" "}
+            Whatsapp {""}
+          </a>
           |
           <a href="#" className="hover:text-orange-600 cursor-pointer">
-            {" "}
-            Linkden
+            
+           {""} Linkden
           </a>
           .
         </p>
         <button className="bg-gray-900 text-orange-500 border-2 px-6 py-3  rounded-lg font-semibold">
-          <a href="https://www.facebook.com/profile.php?id=100085781894180"></a>{" "}
+          <a href="https://www.facebook.com/profile.php?id=100085781894180"></a>
           Contact me
         </button>
       </div>
@@ -54,7 +54,7 @@ function Body() {
           Video Editor.
         </h2>
         <p className="text-white leading-relaxed ">
-          My name is Rajani Chhetri, and I am a passionate learner with <br />{" "}
+          My name is Rajani Chhetri, and I am a passionate learner with <br />
           skills in photo and video editing. I also enjoy cooking <br />
           and experimenting with new recipes. I love exploring creative
           <br />
@@ -67,25 +67,21 @@ function Body() {
         <div className="mb-7 text-center md:hidden">
           <h1 className="text-2xl mt-[17px] font-bold">Rajani Chhetri</h1>
           <p className="font-bold mt-2">
-            {" "}
+       
             <a
               href="https://www.instagram.com/ra_ja_ni_28/"
               className="hover:text-orange-600 cursor-pointer"
             >
-              Instagram
+              Instagram | 
             </a>
             <a
               href="https://www.facebook.com/profile.php?id=100085781894180"
-              className="hover:text-orange-600 cursor-pointer"
-            >
-              Facebook
-            </a>
+              className="hover:text-orange-600 cursor-pointer"> Facebook</a>
             <br />
             <a href="#" className="hover:text-orange-600 cursor-pointer">
-              Whatsapp{" "}
+              Whatsapp | 
             </a>
-            <a href="#" className="hover:text-orange-600 cursor-pointer">
-              Linkden
+            <a href="#" className="hover:text-orange-600 cursor-pointer"> Linkden
             </a>
           </p>
           <button className="bg-gray-900 text-orange-500 border-2 border-orange-500 rounded-lg font-semibold px-4 py-2 mt-5">

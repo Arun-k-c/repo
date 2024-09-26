@@ -33,7 +33,7 @@ function About() {
 
         {/* Desktop */}
         <div className="hidden md:block">
-        <p className=" flex justify-center ml-[4.5rem] text-blue-500 text-2xl ">About </p>
+        <p className=" flex justify-center ml-[7.5rem] text-blue-500 text-2xl ">About me </p>
         <hr   className=" w-2/4 border-gray-400 border-solid border-[1.5px] ml-[39.1rem]"/> 
         </div>
         <div className="hidden md:grid grid-cols-2 gap-8 items-center">
