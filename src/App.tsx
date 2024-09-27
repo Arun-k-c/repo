@@ -3,6 +3,7 @@ import Heading from "./components/header"
 import About from "./components/about"
 import Photos from "./components/photos"
 import Contact from "./components/contact"
+import Footer from "./components/footer"
 const App = () => {
    return (
      <div>
@@ -11,6 +12,7 @@ const App = () => {
     <About/>
     <Photos/>
     <Contact/>
+    <Footer/>
     
       
      </div>

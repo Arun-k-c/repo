@@ -18,17 +18,16 @@ const Heading: React.FC = () => {
     { name: "Home", to: "home" },
     { name: "About", to: "about" },
     { name: "Photos", to: "photo1" },
-    { name: "Services", to: "services" },
-    { name: "Contact Us", to: "contact" },
+    { name: "Contact Me", to: "contact" },
   ];
 
   const reload = () => {
-    window.location.href = "./home";
+    window.location.reload();
   };
   if (loading) {
     return (
-      <div className="flex justify-center items-center h-screen">
-        <div className="w-16 h-16 border-t-4 border-b-4 border-blue-500 rounded-full animate-spin"></div>
+      <div className="flex justify-center items-center fixed bg-gray-900 w-full h-screen">
+        <div className="w-16 h-16 border-t-4 border-b-4 border-blue-500 rounded-full  animate-spin"></div>
       </div>
     );
   }
@@ -42,6 +41,7 @@ const Heading: React.FC = () => {
             alt="logo"
             onClick={() => reload()}
             className="w-[90px] h-[55px]"
+            
           />
         </div>
         <div className="mr-6">
@@ -80,8 +80,8 @@ const Heading: React.FC = () => {
         {/* Mobile phone */}
 
         <ul
-          className={`w-full h-screen  md:hidden text-white font-bold fixed   bg-black top-[55px]  duration-300 ${
-            setdata ? "left-[40%]" : "left-[-100%]"
+          className={`w-full h-screen  md:hidden text-white font-bold fixed   bg-gray-900 top-[55px]  duration-300 ${
+            setdata ? "left-[0%]" : "left-[-100%]"
           }`}
         >
           {menuItems.map((item, index) => (
