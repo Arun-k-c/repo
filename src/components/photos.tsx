@@ -20,26 +20,9 @@ import img12 from "./images/img12.jpeg";
 export default function PhotoGallery() {
   // Use string | StaticImageData for proper TypeScript handling
   const [selectedImage, setSelectedImage] = useState<string | StaticImageData | null>(null);
-  const [isVisible, setIsVisible] = useState(false);
 
-  // Image array
-  const images: (string | StaticImageData)[] = [img1, img2, img3, img4, img5, img6, img7, img8,img11,img12];
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const photoSection = document.getElementById("photo-gallery");
-      if (photoSection) {
-        const rect = photoSection.getBoundingClientRect();
-        const isInView = rect.top < window.innerHeight && rect.bottom >= 0;
-        setIsVisible(isInView);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    handleScroll(); // Check on initial load
-
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  const images: (string | StaticImageData)[] = [img1, img2, img3, img4, img5, img6, img7, img8, img11, img12];
 
   // Close modal when pressing "Escape" key
   useEffect(() => {
