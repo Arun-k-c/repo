@@ -1,4 +1,4 @@
-import Body from "./components/body"
+import Body from "./components/home"
 import Heading from "./components/header"
 import About from "./components/about"
 import Photos from "./components/photos"
